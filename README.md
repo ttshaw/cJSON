@@ -1,4 +1,3 @@
-
   Copyright (c) 2009 Dave Gamble
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -78,6 +77,10 @@ Want to change the framerate?
 Back to disk?
 
     char * rendered = cJSON_Print(root);
+  
+Remeber to free buffer...
+
+    free(rendered);
 
 Finished? Delete the root (this takes care of everything else).
 
